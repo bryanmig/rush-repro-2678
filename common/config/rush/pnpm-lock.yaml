@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../project-1:
+    specifiers:
+      project-2: workspace:*
+    dependencies:
+      project-2: link:../project-2
+
+  ../../project-2:
+    specifiers: {}
